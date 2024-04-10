@@ -17,3 +17,7 @@ function maxNum(arr){
 const array = [10, 4, 100, 90, 150, 25];
 
 console.log(maxNum(array));
+
+/* ----------- Solution 2 -------------- */
+
+console.log(Math.max(...array));
